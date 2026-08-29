@@ -1,0 +1,8 @@
+reflex>=0.6
+sqlmodel
+passlib[bcrypt]
+bcrypt<4.0  # passlib 1.7.4 não reconhece bcrypt>=4 (remove __about__.__version__)
+httpx
+python-dotenv
+psycopg2-binary
+pytest
